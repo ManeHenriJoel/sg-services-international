@@ -1,0 +1,4 @@
+/vendor/*
+!/vendor/.htaccess
+/composer.phar
+/premierapp-storage/

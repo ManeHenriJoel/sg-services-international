@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+<FilesMatch "^(?!(login|index|dashboard)\.php$).+\.php$">
+	Require all denied
+</FilesMatch>

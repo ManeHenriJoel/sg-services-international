@@ -1,0 +1,7 @@
+</main>
+<footer class="site-footer"><div class="footer-main"><a class="brand brand-light" href="?page=home"><span class="brand-mark"><?php $footerLogo = site_setting('logo_path'); if ($footerLogo): ?><img src="?page=logo&amp;v=<?= e(substr($footerLogo,0,8)) ?>" alt="Logo SG Services"><?php else: ?>SG<?php endif; ?></span><span>SG SERVICES<small>INTERNATIONAL SARL</small></span></a><p>Construire avec confiance.<br>Investir avec clarté.</p><div><strong>Nous joindre</strong><a href="tel:+2250711850139">+225 07 11 85 0139</a><span>225, Songon Diapoté, Abidjan</span><a href="?page=alertes">Recevoir les alertes terrains</a></div></div><div class="footer-bottom"><span>© <?= date('Y') ?> SG Services International SARL</span><a href="admin/login.php">Accès administration</a><span>Les informations foncières doivent être vérifiées avant toute transaction.</span></div></footer>
+<a class="whatsapp-float" href="https://wa.me/2250711850139" target="_blank" rel="noopener noreferrer" aria-label="Contacter SG Services sur WhatsApp"><span>WA</span></a>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
